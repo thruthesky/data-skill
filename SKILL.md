@@ -5,6 +5,15 @@ description: 본 스킬은 대한민국 공공데이터포털(https://www.data.g
 
 # 대한민국 공공데이터포털 API 스킬
 
+## 🔥 Center 프로젝트 글 생성/수정/관리 작업 시 필수 확인
+
+> **⚠️ Center 프로젝트에서 글 관련 작업(생성, 수정, 삭제, 배치 생성 등)을 수행할 때는 반드시 다음 순서로 문서를 확인하세요:**
+>
+> 1. **[api-spec.md](../center-skill/references/api-spec.md)** - API 사용 가이드, 테스트용 토큰, curl 예시
+> 2. **[create_post.sh](../center-skill/scripts/create_post.sh)** - 단일/배치 게시글 생성 스크립트
+
+---
+
 ## 1. 개요
 
 **대한민국 공공데이터포털(data.go.kr)**은 중앙정부, 지자체, 공공기관이 보유한 데이터를 개방·제공하는 공식 플랫폼이다.
